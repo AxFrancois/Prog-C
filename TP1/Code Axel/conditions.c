@@ -1,3 +1,16 @@
+/*
+24/09/21
+TP1, ex 1.7
+
+@Author : Axel François
+https://github.com/AxFrancois/Prog-C/
+
+Program that show numbers between 1 and 1000 that are divisible:
+1. by 2 and 15
+2. by 103 or 107
+3. 7 or 5 but not 3
+*/
+
 #include <stdio.h>
 
 

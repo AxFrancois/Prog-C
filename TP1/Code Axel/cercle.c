@@ -1,3 +1,13 @@
+/*
+24/09/21
+TP1, ex 1.2
+
+@Author : Axel François
+https://github.com/AxFrancois/Prog-C/
+
+Area and Perimeter of circle calculation
+*/
+
 #include <stdio.h>
 #include <math.h>
 

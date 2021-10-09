@@ -1,3 +1,13 @@
+/*
+24/09/21
+TP1, ex 1.6
+
+@Author : Axel François
+https://github.com/AxFrancois/Prog-C/
+
+Program that uses while and for loops to print a triangle
+*/
+
 #include <stdio.h>
 
 
@@ -5,11 +15,11 @@ int main(){
 	int compter = 10, cas = 1;
 	int a=0;
 	if (compter < 4) {
-		printf("compter trop petit \n");
+		printf("compter trop petit (doit être supérieur ou égal à 4)\n");
 	}
 	else{
 		switch(cas){
-			case 1:
+			case 1: //With for loops
 				for(a=0; a<compter; a++){
 					if (a == 0){
 						printf("*\n");
@@ -29,7 +39,7 @@ int main(){
 					}
 				}
 			break;
-			case 2:
+			case 2:	//with while loops
 				while (a<compter){
 					if (a == 0){
 						printf("*\n");

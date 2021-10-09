@@ -1,3 +1,13 @@
+/*
+24/09/21
+TP1, ex 1.4
+
+@Author : Axel François
+https://github.com/AxFrancois/Prog-C/
+
+Program that affect and print values of different data type
+*/
+
 #include <stdio.h>
 
 

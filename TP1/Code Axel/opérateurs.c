@@ -1,3 +1,13 @@
+/*
+24/09/21
+TP1, ex 1.5
+
+@Author : Axel François
+https://github.com/AxFrancois/Prog-C/
+
+Program that tests the different arithmetic and logical operators.
+*/
+
 #include <stdio.h>
 
 

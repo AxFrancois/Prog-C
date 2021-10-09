@@ -1,3 +1,13 @@
+/*
+24/09/21
+TP1, ex 1.3
+
+@Author : Axel François
+https://github.com/AxFrancois/Prog-C/
+
+Program to display size of every data type
+*/
+
 #include <stdio.h>
 #include <limits.h>
 #include <float.h>

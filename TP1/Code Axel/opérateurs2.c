@@ -1,3 +1,13 @@
+/*
+24/09/21
+TP1, ex 1.8
+
+@Author : Axel François
+https://github.com/AxFrancois/Prog-C/
+
+Program that performs an arithmetic or logical operation between num1 and num2 depending on the value of op
+*/
+
 #include <stdio.h>
 #include <string.h>
 
