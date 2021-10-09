@@ -1,3 +1,10 @@
+/*
+Nom du fichier : variable.c
+Auteur : Alexis PINCEMIN
+Objectif : affecter et afficher les valeurs des variables des différents types de base 
+*/
+
+
 #include <stdio.h>
 
 int main(){
