@@ -9,7 +9,7 @@ Objectif : comptez le nombre de couleurs identique dans un tableau de 100 couleu
 #include <stdlib.h>
 #include <time.h>
 
-#define NOMBRE_COULEURS 5
+#define NOMBRE_COULEURS 100
 
 int main(){
 
