@@ -1,7 +1,7 @@
 # Prog-C
 Sujets de travaux pratiques de Programmation en C
 
-#Consignes et énoncés : 
+# Consignes et énoncés : 
 
 ## Année: 2021-2022
 ###  Sujets de travaux pratiques
