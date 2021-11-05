@@ -1,5 +1,5 @@
-AxelFrançois; Adresse : 16 Rue du Lama, Pétaouchnok; Note de C : 15; Note de OS : 15
-AxelFrançois; Adresse : 16 Rue du Lama, Pétaouchnok; Note de C : 15; Note de OS : 15
-AxelFrançois; Adresse : 16 Rue du Lama, Pétaouchnok; Note de C : 15; Note de OS : 15
-AxelFrançois; Adresse : 16 Rue du Lama, Pétaouchnok; Note de C : 15; Note de OS : 15
-AxelFrançois; Adresse : 16 Rue du Lama, Pétaouchnok; Note de C : 15; Note de OS : 15
+Axel; François; Adresse : 16 rue du lama, Pétaouchnok; Note de C : 15; Note de OS : 15
+Alexis; Pince; Adresse : 512 Baker Street, London; Note de C : 17; Note de OS : 13
+Nathan; Hu; Adresse : 22 Place du sport, Marathon; Note de C : 42; Note de OS : 21
+Leo; Gou; Adresse : 3 Place des Arts, Rhodes Island; Note de C : 14; Note de OS : 13
+Gui; Tchickladzzzzzzzz; Adresse : B217, CPE; Note de C : 20; Note de OS : 20

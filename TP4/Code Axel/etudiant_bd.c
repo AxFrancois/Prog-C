@@ -1,11 +1,11 @@
 /*
-15/10/21
+15/10/21 -> 05/11/21
 TP4, ex 4.3
 
 @Author : Axel François
 https://github.com/AxFrancois/Prog-C/
 
-
+Build Student Database
 */
 
 #include <stdio.h>
@@ -42,57 +42,71 @@ int main(){
 	char nom_de_fichier[] = "./etudiant.txt";
 	remove(nom_de_fichier);
 	for(int etudiantIndex=0; etudiantIndex<nombreEtudiant; etudiantIndex++){
-		char prenom[50] = "Axel";
-		char nom[50] = "François";
-		char rue[50] = "16 Rue du Lama";
-		char ville[50] = "Pétaouchnok";
-		char noteC[50] = "15";
-		char noteOS[50] ="15";
-		
-		// LA SAISIE DE CARACTERE C'EST INFAME, scanf ne récup pas les espace, et fgets complétement pété ne capture rien
+		// LA SAISIE DE CARACTERE C'EST INFAME
 
-		/*char temp;		
+		char Line[1024];
+		memset(Line,0,sizeof(Line));
+		char LineBuilder[256];		
+		memset(LineBuilder,0,sizeof(LineBuilder));
 		
-		
+		//Prenom
 		printf("Prenom : ");
-		scanf("%s", &temp); //but fail to capturate " " (space) <--- 1h and half wasted :)
-		fgets(prenom,24,stdin);
+		//scanf("%s", &temp); //but fail to capturate " " (space) <--- 1h and half wasted :)
+		fgets(LineBuilder,50,stdin);
+		LineBuilder[strlen(LineBuilder)-1] = '\0'; //<-- probably unorthodox way to get rid on the '\n'
+		strcat(Line,LineBuilder);
 		
+		strcat(Line,"; ");
+
+		//Nom
+		memset(LineBuilder,0,sizeof(LineBuilder));
 		printf("Nom : ");
-		scanf("%24[^\n]", nom);
-		//fgets(nom,24,stdin);
-	
+		fgets(LineBuilder,50,stdin);
+		LineBuilder[strlen(LineBuilder)-1] = '\0';
+		strcat(Line,LineBuilder);
+
+		strcat(Line,"; Adresse : ");
+
+		//Adresse Rue
+		memset(LineBuilder,0,sizeof(LineBuilder));
 		printf("Rue : ");
-		scanf("%49[^\n]", rue);
-		//fgets(rue,49,stdin);
+		fgets(LineBuilder,50,stdin);
+		LineBuilder[strlen(LineBuilder)-1] = '\0';
+		strcat(Line,LineBuilder);
 
+		strcat(Line,", ");
+
+		//Adresse Ville
+		memset(LineBuilder,0,sizeof(LineBuilder));
 		printf("Ville : ");
-		scanf("%c", &temp);
-		//fgets(ville,49,stdin);
+		fgets(LineBuilder,50,stdin);
+		LineBuilder[strlen(LineBuilder)-1] = '\0';
+		strcat(Line,LineBuilder);
 
+		strcat(Line,"; Note de C : ");
+
+		//Note C
+		memset(LineBuilder,0,sizeof(LineBuilder));
 		printf("Note de C : ");
-		scanf("%c", &temp);
-		//fgets(noteC,2,stdin);
+		fgets(LineBuilder,5,stdin);
+		LineBuilder[strlen(LineBuilder)-1] = '\0';
+		strcat(Line,LineBuilder);
 
+		strcat(Line,"; Note de OS : ");
+
+		//Note OS
+		memset(LineBuilder,0,sizeof(LineBuilder));
 		printf("Note OS : ");
-		scanf("%c", &temp);
-		//fgets(noteOS,2,stdin);
+		fgets(LineBuilder,5,stdin);
+		LineBuilder[strlen(LineBuilder)-1] = '\0';
+		strcat(Line,LineBuilder);
 
-		*/
+		strcat(Line,"\n");
 
+		//printf("%s",Line);
 
-		ecrire_dans_fichier(nom_de_fichier, prenom);
-		ecrire_dans_fichier(nom_de_fichier, nom);
-		ecrire_dans_fichier(nom_de_fichier, "; Adresse : ");
-		ecrire_dans_fichier(nom_de_fichier, rue);
-		ecrire_dans_fichier(nom_de_fichier, ", ");
-		ecrire_dans_fichier(nom_de_fichier, ville);
-		ecrire_dans_fichier(nom_de_fichier, "; Note de C : ");
-		ecrire_dans_fichier(nom_de_fichier, noteC);
-		ecrire_dans_fichier(nom_de_fichier, "; Note de OS : ");
-		ecrire_dans_fichier(nom_de_fichier, noteOS);
-		ecrire_dans_fichier(nom_de_fichier, "\n");
-		
+		ecrire_dans_fichier(nom_de_fichier, Line);
+
 	}
 }
 
