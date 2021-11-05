@@ -1,9 +1,15 @@
+/*
+Nom du fichier : sizeof_types.c
+Auteur : Alexis PINCEMIN
+Objectif : afficher la taille des différents types de base (en octets)
+*/
+
+
 #include <stdio.h>
 #include <limits.h>
 
 int main(){
 
-	
 	printf("char : %ld \n", sizeof(char));
 	printf("signed char : %ld \n", sizeof(signed char));
 	printf("unsigned char : %ld \n", sizeof(unsigned char));
@@ -26,4 +32,6 @@ int main(){
 	return 0;
 	
 }
+
+
 
