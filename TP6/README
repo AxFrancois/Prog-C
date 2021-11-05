@@ -1,0 +1,26 @@
+# Bibliothèques
+* sys/types.h
+* sys/stat.h
+* fcntl.h
+* unistd.h
+* stdio.h
+* stdlib.h
+* sys/socket.h
+* netinet/in.h
+* string.h
+* sys/epoll.h
+
+# Références
+* Cours
+* TPs précédents
+* https://koor.fr/C/cstdio/fscanf.wp
+* https://stackoverflow.com/questions/4834811/strcat-concat-a-char-onto-a-string
+* https://www.educative.io/edpresso/how-to-convert-a-string-to-an-integer-in-c
+
+# Difficulté
+* Le dernier exercice était assez pénible et long (convertion string/JSON). La difficulté était ok.
+
+# Commentaires
+* 
+* 
+

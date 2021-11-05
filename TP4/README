@@ -1,0 +1,29 @@
+# Bibliothèques
+* stdio.h
+* string.h
+* stdlib.h
+* sys/types.h
+* sys/stat.h
+* fcntl.h
+* unistd.h
+
+# Références
+* https://pubs.opengroup.org/onlinepubs/7908799/xsh/readdir.html
+* https://fr.wikipedia.org/wiki/Types_de_donn%C3%A9e_du_langage_C#
+* https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/
+* Cours
+* https://www.includehelp.com/c/c-program-to-read-string-with-spaces-using-scanf-function.aspx
+* https://stackoverflow.com/questions/1247989/how-do-you-allow-spaces-to-be-entered-using-scanf
+* https://www.tutorialspoint.com/c_standard_library/c_function_fgets.htm
+* https://www.thinkage.ca/gcos/expl/c/lib/open.html
+* https://www.tutorialspoint.com/c_standard_library/c_function_scanf.htm
+* https://stackoverflow.com/questions/51859219/reading-a-file-in-c-leading-zeros
+
+# Difficulté
+* etudiant_bd.c m'a fait pleurer du sang. Et je ne l'ai d'ailleur pas fini : trop galère de rentrer une adresse puisque les espaces sont des séparateurs. 
+* liste.c était aussi assez difficile
+
+# Commentaires
+* 
+* 
+
