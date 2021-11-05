@@ -20,7 +20,7 @@
 * https://stackoverflow.com/questions/51859219/reading-a-file-in-c-leading-zeros
 
 # Difficulté
-* etudiant_bd.c m'a fait pleurer du sang. Et je ne l'ai d'ailleur pas fini : trop galère de rentrer une adresse puisque les espaces sont des séparateurs. 
+* etudiant_bd.c m'a fait pleurer du sang. Mais réussi finalement (~3h)
 * liste.c était aussi assez difficile
 
 # Commentaires
